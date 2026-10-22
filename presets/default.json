@@ -1,36 +1,36 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "civitai_checkpoint_290640.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
+            "civitai_lora_717403.safetensors",
+            1
         ],
         [
             true,
-            "None",
-            1.0
+            "civitai_lora_2074888.safetensors",
+            1
         ],
         [
             true,
-            "None",
-            1.0
+            "civitai_lora_3352041.safetensors",
+            1
         ],
         [
-            true,
+            false,
             "None",
-            1.0
+            1
         ],
         [
-            true,
+            false,
             "None",
-            1.0
+            1
         ]
     ],
-    "default_cfg_scale": 4.0,
-    "default_sample_sharpness": 2.0,
+    "default_cfg_scale": 4,
+    "default_sample_sharpness": 2,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
@@ -44,17 +44,13 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "civitai_checkpoint_290640.safetensors": "https://civitai.com/api/download/models/290640?fileId=228616"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "civitai_lora_717403.safetensors": "https://civitai.com/api/download/models/717403?fileId=632089",
+        "civitai_lora_2074888.safetensors": "https://civitai.com/api/download/models/2074888?fileId=1971030",
+        "civitai_lora_3352041.safetensors": "https://civitai.com/api/download/models/3352041?fileId=3239294"
     },
-    "previous_default_models": [
-        "juggernautXL_version8Rundiffusion.safetensors",
-        "juggernautXL_version7Rundiffusion.safetensors",
-        "juggernautXL_v7Rundiffusion.safetensors",
-        "juggernautXL_version6Rundiffusion.safetensors",
-        "juggernautXL_v6Rundiffusion.safetensors"
-    ]
+    "previous_default_models": []
 }
